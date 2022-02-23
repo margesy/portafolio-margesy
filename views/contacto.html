@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>margesy</title>
+	<!--LINKEAR FONTS DE GOOGLE-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@300&display=swap" rel="stylesheet">
+	<!--LINKEAR ARCHIVO EXTERNO CSS-->
+	<link rel="stylesheet" href="../css/estilo.css">
+
+</head>
+<body>	
+	<header class="header">
+	<!-- inicio nav -->
+		<nav>
+			<!-- lista con viñetas -->
+			<ul class="header_nav nav--background">
+				<li class="nav_item nav_item--background nav_item--color"><a href="../index.html">INICIO</a></li>
+				<li class="nav_item nav_item--background nav_item--color"><a href="sobre_mi.html">SOBRE MI</a></li>
+				<li class="nav_item nav_item--background nav_item--color"><a href="proyectos.html">PROYECTOS</a></li>
+                <li class="nav_item nav_item--background nav_item--color"><a href="experiencia.html">EXPERIENCIA</a></li>
+				<li class="nav_item nav_item--background nav_item--color"><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</nav>
+	<!-- cierre nav -->
+	</header>
+	<!-- cierre encabezado -->
+	<!-- inicio contenido -->
+	<main>
+		<div class="grid">
+			<div class="card">
+				<h3 class="titulo">Contacto</h3>
+				<form class="form">
+					<label class="form_text" for="fname">Nombre:</label><br>
+					<input type="text" id="fname" name="fname" value="John"><br>
+					<label class="form_text" for="lname">Apellido:</label><br>
+					<input type="text" id="lname" name="lname" value="Doe"><br><br>
+					<label class="form_text" for="email">Email:</label><br>
+					<input type="email" name="email" placeholder="nombre@ejemplo.com"/>
+					<label class="form_text" for="messaje">Mensaje:</label><br>
+					<textarea rows="8" cols="25">Deja tu mensaje aqui</textarea>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Limpiar formulario"/>
+					<input type="button" value="Sin acciones"/>
+				</form> 
+			</div>
+
+			<div>
+				<img  class="card_img" src="../assets/img/contacto.jpg" alt="contacto">
+			</div>
+		</div>
+	</main>
+	<!-- cierre contenido -->
+	<!-- inicio footer -->
+	<footer class="footer">
+        <!-- CONTACTO -->
+		<!-- CORREO -->
+        <div>
+            <h5 class="footer_text">margesy.anaya@gmail.com</h5>
+        </div>
+		<!-- REDES SOCIALES -->
+		<div>
+			<img class="footer_logo" src="../assets/img/logo_linkedin.png" alt="logo_linkedin">
+			<img class="footer_logo" src="../assets/img/logo_instagram.png" alt="logo_instagram"> 
+		</div>
+		<div>
+			<h5 class="footer_text">copyrigth 2022</h5>
+		</div>
+	</footer>
+	<!-- cierre footer -->
+</body>
+</html>	
