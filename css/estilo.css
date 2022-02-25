@@ -66,6 +66,8 @@ main {
     background-color: #F2F3AE;
     display: block;
     flex-direction: row;
+    background: radial-gradient(ellipse, rgb(236, 152, 42) 0%, rgb(230, 218, 113));
+    background: radial-gradient(rgb(207, 207, 161), rgb(230, 161, 84));
 }
 
 
